@@ -591,9 +591,10 @@ padding-left: 0px;
 
   background-color: transparent;
   border: 1px solid rgba(255, 255, 255, 0.3);
-  box-shadow: (0px 4px 4px rgba(0, 0, 0, 0.15));
+  box-shadow: (0px 4px 4px rgba(17, 17, 17, 0.15));
   border-radius: 4px;
   cursor: pointer;
+  color: #fff;
 }
 
 .decision-button.subscription {
@@ -746,7 +747,7 @@ background-color: #fff;
 .form-field .comment {
   padding: 12px 16px;
   resize: none;
-  
+  height: 120px;
 }
 
 .form-field:focus-within .comment,
@@ -780,6 +781,7 @@ background-color: #fff;
   left: 10px;
   display: flex;
   padding-top: 20px;
+  
 }
 
 .checkbox-icon {
